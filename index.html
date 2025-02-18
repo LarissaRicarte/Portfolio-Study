@@ -4,28 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu site</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/components.css">
+    <link rel="stylesheet" href="./styles/sections.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-            <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body style="padding: 0; margin: 0; background: linear-gradient(90deg, #3e2488 0%, #2B235F 35%, #000 100%); font-family: Manrope">
+<body>
     <div class="container">
-        <div style="background-color: #141414; box-shadow: 25% ;height: 200px; font-size: 48px; color: white; font-weight: bold; display: flex; justify-content: space-between; align-items: center; padding-left: 72px; padding-right: 72px;">
-            <div style="display: flex; flex-direction: row; gap: 48px;">
-                <div style="display: flex; justify-content: center; align-items: center; gap: 24px; background-color: #2B235F; padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; border-radius: 100px;">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png" alt="perfil" 
-                    style="border-radius: 100px; width: 80px; height: 80px;">
-                    <i data-lucide="chevron-down" style="width: 60px; height: 60px; color: white; font-weight: 20px; gap: 6px; padding: 0;"></i>            
+        <!-- NAVBAR -->
+        <div class="navbar">
+            <div style="display: flex; flex-direction: row; gap: 24px;">
+                <div class="card">
+                    <img    
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png" 
+                        alt="perfil" 
+                        style="border-radius: 100px; width: 30px; height: 30px;"
+                    >
+                    <i data-lucide="chevron-down" style="width: 40px; height: 40px; color: white; font-weight: 10px; gap: 6px; padding: 0;"></i>            
                 </div>
-                <div style="display: flex; justify-content: center; align-items: center; gap: 24px; background-color: #5f3dbc; padding-left: 16px; padding-right: 20px; padding-top: 12px; padding-bottom: 12px; border-radius: 100px;">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwXRsEwpFFX0OKKI2dQwdnS3hsLq_2Bogf2g&s" alt="perfil" 
-                    style="border-radius: 100px; width: 80px; height: 80px;">
+                <div class="card" style="background-color: #5f3dbc; ">
+                    <img 
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwXRsEwpFFX0OKKI2dQwdnS3hsLq_2Bogf2g&s" 
+                        alt="perfil" 
+                        style="border-radius: 100px; width: 30px; height: 30px"
+                    >
                     Larissa Ricarte
                 </div>
             </div>
             <div style="flex-direction: row; display: flex; gap: 48px;">
-                <div style="text-decoration: underline #5f3dbc 12px;">Home</div>
+                <div style="text-decoration: underline #5f3dbc 3px;">Home</div>
                 <div>Sobre mim</div>
                 <div>Serviços</div>
                 <div>Portfólio</div>
@@ -36,17 +46,22 @@
             </script>
         </div>
 
-        <div style="padding: 200px ;color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; justify-items: center; align-content: center;">
-            <div style="font-size: 64px;">Bem vindo(a) ao meu espaço criativo</div>
-            <div style="font-size: 200px; font-weight: bold;">Sou Designer Freelancer</div>
-            <div style="display: flex; flex-direction: row;">
-                <div>UI/UX Design</div>
-                <div>Social Media</div>
-                <div>Identidade Visual</div>
-            </div>
-            <div>Transformo ideias em interfaces intuitivas e impactantes. Combinando design e estratégia, crio experiências que encantam e convertem.</div>
-            <div>Vamos!</div>
-        </div>
+        <!-- SESSÃO 01 -->
+         <section class="section-one">
+                <div style="font-size: 20px;">Bem vindo(a) ao meu espaço criativo</div>
+                <div style="font-size: 64px; font-weight: bold;">Sou Designer Freelancer</div>
+                <div style="display: flex; flex-direction: row;  width: max-content; gap: 48px;">
+                    <div class="badge">UI/UX Design</div>
+                    <div class="badge">Social Media</div>
+                    <div class="badge">Identidade Visual</div>
+                </div>
+                <div style="font-size: 20px;">
+                    <p>Transformo ideias em interfaces intuitivas e impactantes.</p>
+                    <p> Combinando design e estratégia, crio experiências que encantam e convertem.</p>
+                </div>
+                <div style="font-size: 32px;">Vamos!</div>
+        </section>
+
     </div>
 </body>
 </html>
