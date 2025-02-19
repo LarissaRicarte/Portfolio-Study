@@ -56,3 +56,22 @@
     background-color: #2B235F;
     transition: 0.5s;
 }
+
+.service {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #2B235F; 
+    padding: 24px; 
+    border-radius: 25px; 
+    border: 10px;
+    border-color: yellow; 
+    width: 230px;
+    height: 100px;
+    gap: 12px;
+}
+
+.service p {
+    width: 230px;
+}

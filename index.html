@@ -1,74 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu site</title>
-    <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/components.css">
-    <link rel="stylesheet" href="./styles/sections.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
+    <link rel="stylesheet" href="./styles/sections.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/lucide@latest"></script>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="container">
-
-        <!-- NAVBAR -->
-        <div class="navbar">
-            <div style="display: flex; flex-direction: row; gap: 24px;">
-                <div class="card">
-                    <img    
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png" 
-                        alt="perfil" 
-                        style="border-radius: 100px; width: 30px; height: 30px;"
-                    >
-                    <i data-lucide="chevron-down" style="width: 20px; height: 20px; color: white; font-weight: 5px; gap: 6px; padding: 0;"></i>            
-                </div>
-                <div class="card" style="background-color: #5f3dbc; ">
-                    <img 
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwXRsEwpFFX0OKKI2dQwdnS3hsLq_2Bogf2g&s" 
-                        alt="perfil" 
-                        style="border-radius: 100px; width: 30px; height: 30px"
-                    >
-                    Larissa Ricarte
-                </div>
-            </div>
-            <div style="flex-direction: row; display: flex; gap: 48px;">
-                <div style="text-decoration: underline #5f3dbc 3px;">Home</div>
-                <div>Sobre mim</div>
-                <div>Serviços</div>
-                <div>Portfólio</div>
-                <div>Entre em contato</div>
-            </div>
-            <script>
-              lucide.createIcons();
-            </script>
+      
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <div style="display: flex; flex-direction: row; gap: 24px">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png"
+              alt="perfil"
+              style="border-radius: 100px; width: 30px; height: 30px"
+            />
+            <i
+              data-lucide="chevron-down"
+              style="
+                width: 20px;
+                height: 20px;
+                color: white;
+                font-weight: 5px;
+                gap: 6px;
+                padding: 0;
+              "
+            ></i>
+          </div>
+          <div class="card" style="background-color: #5f3dbc">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwXRsEwpFFX0OKKI2dQwdnS3hsLq_2Bogf2g&s"
+              alt="perfil"
+              style="border-radius: 100px; width: 30px; height: 30px"
+            />
+            Larissa Ricarte
+          </div>
         </div>
+        <div style="flex-direction: row; display: flex; gap: 48px">
+          <div style="text-decoration: underline #5f3dbc 3px">Home</div>
+          <div>Sobre mim</div>
+          <div>Serviços</div>
+          <div>Portfólio</div>
+          <div>Entre em contato</div>
+        </div>
+        <script>
+          lucide.createIcons();
+        </script>
+      </div>
 
-        <!-- SESSÃO 01 -->
-         <section class="section-one">
-                <div style="font-size: 20px;">Bem vindo(a) ao meu espaço criativo</div>
-                <div style="font-size: 64px; font-weight: bold;">Sou Designer Freelancer</div>
-                <div style="display: flex; flex-direction: row; gap: 48px; justify-content: space-between; align-content: space-between;">
-                    <div class="badge">UI/UX Design</div>
-                    <div class="badge">Social Media</div>
-                    <div class="badge">Identidade Visual</div>
-                </div>
-                <div style="font-size: 20px;">
-                    <p>Transformo ideias em interfaces intuitivas e impactantes. Combinando </p>
-                    <p>design e estratégia, crio experiências que encantam e convertem.</p>
-                </div>
-                <button class="button">Vamos conversar!</button>
-        </section>
+      <!-- SESSÃO 01 -->
+      <section class="section-one">
+        <div style="font-size: 20px">Bem vindo(a) ao meu espaço criativo</div>
+        <div style="font-size: 64px; font-weight: bold">
+          Sou Designer Freelancer
+        </div>
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            gap: 48px;
+            justify-content: space-between;
+            align-content: space-between;
+          "
+        >
+          <div class="badge">UI/UX Design</div>
+          <div class="badge">Social Media</div>
+          <div class="badge">Identidade Visual</div>
+        </div>
+        <div style="font-size: 20px">
+          <p>
+            Transformo ideias em interfaces intuitivas e impactantes. Combinando
+          </p>
+          <p>
+            design e estratégia, crio experiências que encantam e convertem.
+          </p>
+        </div>
+        <button class="button">Vamos conversar!</button>
+      </section>
 
-        <!-- SESSÃO 02 -->
-        <section class="section-two">
-                <div style="font-size: 48px; font-weight: bold;">Sobre mim</div>
-        </section>
-
+      <!-- SESSÃO 02 -->
+      <section class="section-two">
+        <div style="font-size: 48px; font-weight: bold">Meus serviços</div>
+        <div style="font-size: 20px">
+          Confira os serviços que ofereço e uma breve explicação sobre cada um:
+        </div>
+        <div style="display: flex; flex-direction: row; gap: 24px">
+          <div class="service">
+            <p style="font-size: 24px; font-weight: bold">UI/UX Design</p>
+            <p>Criação de interfaces para websites e Apps.</p>
+          </div>
+          <div class="service">
+            <p style="font-size: 24px; font-weight: bold">Social Media</p>
+            <p>Criação de conteúdo para redes sociais.</p>
+          </div>
+          <div class="service">
+            <p style="font-size: 24px; font-weight: bold">Identidade Visual</p>
+            <p>Criação de logo, paleta de cores e tipografia.</p>
+          </div>
+        </div>
+      </section>
     </div>
-</body>
+  </body>
 </html>
