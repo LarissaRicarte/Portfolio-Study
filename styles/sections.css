@@ -41,3 +41,18 @@
     gap: 48px;
     padding: 100px;
 }
+
+.section-five {
+    background: #141414;
+    padding: 150px;
+    color: white; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    justify-items: center; 
+    align-content: center; 
+    text-align: center;
+    gap: 48px;
+    padding: 100px;
+}

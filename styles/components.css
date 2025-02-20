@@ -100,3 +100,20 @@
     display: flex; 
     border-radius: 0px 25px 25px 0px;
 }
+
+.section-five .feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: #5f3dbc 3px solid;
+    border-radius: 10px;
+    gap: 36px;
+    padding: 24px;
+}
+
+.section-five .feedbacks-line {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
