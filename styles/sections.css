@@ -14,7 +14,6 @@
 
 .section-two {
     background: #141414;
-    padding: 150px;
     color: white; 
     display: flex; 
     flex-direction: column; 
@@ -29,7 +28,6 @@
 
 .section-tree {
     background: linear-gradient(135deg, #141414 10%, #2B235F 100%);
-    padding: 150px;
     color: white; 
     display: flex; 
     flex-direction: column; 
@@ -44,7 +42,6 @@
 
 .section-five {
     background: #141414;
-    padding: 150px;
     color: white; 
     display: flex; 
     flex-direction: column; 
@@ -55,4 +52,20 @@
     text-align: center;
     gap: 48px;
     padding: 100px;
+}
+
+footer {
+    background: #141414;
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    justify-items: center; 
+    align-content: center; 
+    text-align: center;
+    gap: 48px;
 }
