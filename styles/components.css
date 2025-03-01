@@ -138,3 +138,33 @@
     border: 3px #5f3dbc solid;
     border-radius: 10px;
 }
+
+.button-port-active {
+    font-size: 16px;
+    font-weight: 500; 
+    background-color: transparent; 
+    width: fit-content;
+    color: white; 
+    padding: 6px; 
+    padding-left: 12px; 
+    padding-right: 12px; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    border: #33A9DC solid 2px;
+    transition: 0.5s;
+}
+
+.button-port {
+    font-size: 16px;
+    font-weight: 200; 
+    background-color: transparent; 
+    width: fit-content;
+    color: white; 
+    padding: 6px; 
+    padding-left: 12px; 
+    padding-right: 12px; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    border: none;
+    transition: 0.5s;
+}

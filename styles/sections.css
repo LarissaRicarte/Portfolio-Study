@@ -47,6 +47,23 @@
     padding-bottom: 125px;
 }
 
+.section-four {
+    background: linear-gradient(135deg, #7D55EA 0%, #2B235F 100%);
+    color: white; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    justify-items: center; 
+    align-content: center; 
+    text-align: center;
+    gap: 48px;
+    padding: 100px;
+    border-radius: 25px 25px 0px 0px;
+    margin-top: -25px;
+    padding-bottom: 125px;
+}
+
 .section-five {
     background: #141414;
     color: white; 
