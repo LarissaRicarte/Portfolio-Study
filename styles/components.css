@@ -39,7 +39,7 @@
 }
 
 .button {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500; 
     background-color: #5f3dbc; 
     color: white; 
@@ -75,7 +75,7 @@
     width: 230px;
 }
 
-.section-two .card-1 {
+.two .card-1 {
     position: relative; 
     background: linear-gradient(180deg, #7D55EA, #2B235F); 
     width: 200px; 
@@ -88,7 +88,7 @@
     flex-direction: column;
 }
 
-.section-two .card-2 {
+.two .card-2 {
     font-size: 20px; 
     text-align: start; 
     width: 500px; 
@@ -104,7 +104,7 @@
     margin-right: 0;
 }
 
-.section-five .feedback {
+.five .feedback {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -115,7 +115,7 @@
     padding: 24px;
 }
 
-.section-five .feedbacks-line {
+.five .feedbacks-line {
     display: flex;
     flex-direction: row;
     gap: 24px;

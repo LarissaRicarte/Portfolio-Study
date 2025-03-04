@@ -1,5 +1,4 @@
-.section-one {
-    background: linear-gradient(135deg, #2B235F 10%, #141414 80%);
+.section {
     padding: 100px;
     color: white; 
     display: flex; 
@@ -13,103 +12,40 @@
     padding-bottom: 125px;
 }
 
-.section-two {
+.one {
+    background: linear-gradient(135deg, #2B235F 10%, #141414 80%);
+}
+
+.two {
     background: #141414;
-    color: white; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    justify-items: center; 
-    align-content: center; 
-    text-align: center;
-    gap: 48px;
-    padding: 100px;
     border-radius: 25px 25px 0px 0px;
     margin-top: -25px;
-    padding-bottom: 125px;
 }
 
-.section-tree {
+.tree {
     background: linear-gradient(135deg, #141414 10%, #2B235F 100%);
-    color: white; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    justify-items: center; 
-    align-content: center; 
-    text-align: center;
-    gap: 48px;
-    padding: 100px;
     border-radius: 25px 25px 0px 0px;
     margin-top: -25px;
-    padding-bottom: 125px;
 }
 
-.section-four {
+.four {
     background: linear-gradient(135deg, #7D55EA 0%, #2B235F 100%);
-    color: white; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    justify-items: center; 
-    align-content: center; 
-    text-align: center;
-    gap: 48px;
-    padding: 100px;
     border-radius: 25px 25px 0px 0px;
     margin-top: -25px;
-    padding-bottom: 125px;
 }
 
-.section-five {
+.five {
     background: #141414;
-    color: white; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    justify-items: center; 
-    align-content: center; 
-    text-align: center;
-    gap: 48px;
-    padding: 100px;
     border-radius: 25px 25px 0px 0px;
     margin-top: -25px;
-    padding-bottom: 125px;
 }
 
-.section-six {
+.six {
     background: linear-gradient(135deg, #2B235F 10%, #141414 80%);
-    padding: 100px;
-    color: white; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    justify-items: center; 
-    align-content: center; 
-    text-align: center;
-    gap: 48px;
     border-radius: 25px 25px 0px 0px;
     margin-top: -25px;
-    padding-bottom: 125px;
 }
 
-footer {
+.footer {
     background: #141414;
-    padding: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
-    color: white; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    justify-items: center; 
-    align-content: center; 
-    text-align: center;
-    gap: 48px;
 }
