@@ -4,8 +4,20 @@
     font-family: Manrope;
 }
 
-.section-title {
-    font-size: 36px; 
-    font-weight: bold
+.navbar {
+    background-color: #141414;
+    box-shadow: 25% ;
+    font-size: 16px;
+    color: white; 
+    font-weight: bold; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
+.footer {
+    background: #141414;
+}
