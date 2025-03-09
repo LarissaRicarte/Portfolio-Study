@@ -4,6 +4,10 @@
     font-family: Manrope;
 }
 
+body{
+    background-color: #141414;
+}
+
 .navbar {
     background-color: #141414;
     box-shadow: 25% ;

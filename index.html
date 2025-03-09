@@ -13,7 +13,9 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles/reveal_fx.css" />
     <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="scripts/reveal_fx.js"></script>
   </head>
   <body>
     <div class="container">
@@ -90,7 +92,7 @@
       </section>
 
       <!-- SESSÃO 02 -->
-      <section class="section two">
+      <section class="section two reveal">
         <div class="section-title">Sobre mim</div>
         <div
           style="
@@ -123,7 +125,7 @@
       </section>
 
       <!-- SESSÃO 03 -->
-      <section class="section tree">
+      <section class="section tree reveal">
         <div class="section-title">Meus serviços</div>
         <div style="font-size: 20px">
           Confira os serviços que ofereço e uma breve explicação sobre cada um:
@@ -145,17 +147,27 @@
       </section>
 
       <!-- SESSÃO 04 -->
-      <section class="section four" style="display: flex; flex-direction: row; justify-content: space-between;">
-        <div style="display: flex; gap: 48px; flex-direction: column;">
-          <div style="text-align: start; gap: 12px; display: flex; flex-direction: column;">
-            <div class="section-title">
-              Portfólio
-            </div>
-            <p>
-              Vem conhecer alguns dos meus trabalhos mais recentes :)
-            </p>
+      <section
+        class="section four reveal"
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        "
+      >
+        <div style="display: flex; gap: 48px; flex-direction: column">
+          <div
+            style="
+              text-align: start;
+              gap: 12px;
+              display: flex;
+              flex-direction: column;
+            "
+          >
+            <div class="section-title">Portfólio</div>
+            <p>Vem conhecer alguns dos meus trabalhos mais recentes :)</p>
           </div>
-          <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="display: flex; flex-direction: column; gap: 12px">
             <button class="button-port-active">01 - UI/UX Design</button>
             <button class="button-port">02 - Social Media</button>
             <button class="button-port">03 - Identidade Visual</button>
@@ -165,7 +177,7 @@
       </section>
 
       <!-- SESSÃO 05 -->
-      <section class="section five">
+      <section class="section five reveal">
         <div class="section-title">Feedbacks</div>
         <div style="font-size: 20px">
           Aqui estão alguns depoimentos de clientes que trabalharam comigo
@@ -513,50 +525,70 @@
           <p>Tem algum projeto em mente?</p>
           <p>Vamos conversar!</p>
         </div>
-        <div style="font-size: 18px;">
+        <div style="font-size: 18px">
           Estou pronta para ajudar sua marca a se destacar.
         </div>
         <button class="button">Entre em contato!</button>
       </section>
 
       <footer class="section footer">
-        <div style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;">
-
-          <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 12px;">
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+          "
+        >
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              gap: 12px;
+            "
+          >
             <button class="social">
-              <img src="./imgs/larissa.svg" alt="" width="30px">
+              <img src="./imgs/larissa.svg" alt="" width="30px" />
               <div>Larissa Ricarte</div>
             </button>
             <button class="social">
-              <img src="./imgs/larissa.svg" alt="" width="30px">
+              <img src="./imgs/larissa.svg" alt="" width="30px" />
               <div>lari.designer.prof@gmail.com</div>
             </button>
             <button class="social">
-              <img src="./imgs/larissa.svg" alt="" width="30px">
+              <img src="./imgs/larissa.svg" alt="" width="30px" />
               <div>Fortaleza, Brasil</div>
             </button>
           </div>
 
-          <div style="display: flex; flex-direction: column; align-items: end; gap: 12px;">
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              align-items: end;
+              gap: 12px;
+            "
+          >
             <button class="social">
               <div>@ricarte.design</div>
-              <img src="./imgs/larissa.svg" alt="" width="30px">
+              <img src="./imgs/larissa.svg" alt="" width="30px" />
             </button>
             <button class="social">
               <div>Larissa Ricarte</div>
-              <img src="./imgs/larissa.svg" alt="" width="30px">
+              <img src="./imgs/larissa.svg" alt="" width="30px" />
             </button>
             <button class="social">
               <div>larissaricartedesign</div>
-              <img src="./imgs/larissa.svg" alt="" width="30px">
+              <img src="./imgs/larissa.svg" alt="" width="30px" />
             </button>
           </div>
-          
         </div>
-          
-        <div style="font-size: 14px; font-weight: lighter;">Copyright © 2025 All Rights Reserved.</div>
-      
+
+        <div style="font-size: 14px; font-weight: lighter">
+          Copyright © 2025 All Rights Reserved.
+        </div>
       </footer>
-      </div>
+    </div>
   </body>
 </html>
