@@ -1,161 +1,167 @@
 .section-title {
-    font-size: 36px; 
-    font-weight: bold
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .card {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    gap: 3px; 
-    background-color: #2B235F; 
-    padding: 3px;
-    padding-left: 6px;
-    padding-right: 6px;
-    border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  background-color: #2b235f;
+  padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 100px;
 }
 
 .badge {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    gap: 3px; 
-    border-radius: 100px;
-    background-color: #2B235F; 
-    font-size: 24px; 
-    padding: 6px; 
-    padding-left: 24px; 
-    padding-right: 24px; 
-    font-weight: 500; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  border-radius: 100px;
+  background-color: #2b235f;
+  font-size: 24px;
+  padding: 6px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-weight: 500;
 }
 
 .button {
-    font-size: 20px;
-    font-weight: 500; 
-    background-color: #5f3dbc; 
-    color: white; 
-    padding: 6px; 
-    padding-left: 12px; 
-    padding-right: 12px; 
-    border-radius: 50px; 
-    cursor: pointer; 
-    border: #5f3dbc;
-    transition: 0.5s;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #5f3dbc;
+  color: white;
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: #5f3dbc;
+  transition: 0.5s;
 }
 
 .button:hover {
-    background-color: #2B235F;
-    transition: 0.5s;
+  background-color: #2b235f;
+  transition: 0.5s;
 }
 
 .service {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    background-color: #2B235F; 
-    padding: 24px; 
-    border-radius: 25px; 
-    border: 3px solid #5f3dbc;
-    width: 230px;
-    height: 100px;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b235f;
+  padding: 24px;
+  border-radius: 25px;
+  border: 3px solid #5f3dbc;
+  width: 230px;
+  height: 100px;
+  gap: 12px;
 }
 
 .service p {
-    width: 230px;
+  width: 230px;
 }
 
 .two .card-1 {
-    position: relative; 
-    background: linear-gradient(180deg, #7D55EA, #2B235F); 
-    width: 200px; 
-    height: 200px; 
-    padding: 24px; 
-    justify-content: flex-end; 
-    align-items: flex-start; 
-    display: flex; 
-    border-radius: 25px; 
-    flex-direction: column;
+  position: relative;
+  background: linear-gradient(180deg, #7d55ea, #2b235f);
+  width: 200px;
+  height: 200px;
+  padding: 24px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  display: flex;
+  border-radius: 25px;
+  flex-direction: column;
 }
 
 .two .card-2 {
-    font-size: 20px; 
-    text-align: start; 
-    width: 500px; 
-    padding: 24px; 
-    padding-left: 49px;
-    background-color: #2B235F; 
-    height: 200px; 
-    justify-content: center; 
-    align-items: center; 
-    display: flex; 
-    border-radius: 0px 25px 25px 0px;
-    margin-left: -25px;
-    margin-right: 0;
+  font-size: 20px;
+  text-align: start;
+  width: 500px;
+  padding: 24px;
+  padding-left: 49px;
+  background-color: #2b235f;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 0px 25px 25px 0px;
+  margin-left: -25px;
+  margin-right: 0;
 }
 
 .five .feedback {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    border: #5f3dbc 3px solid;
-    border-radius: 10px;
-    gap: 36px;
-    padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: #5f3dbc 3px solid;
+  border-radius: 10px;
+  gap: 36px;
+  padding: 24px;
 }
 
 .five .feedbacks-line {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
 }
 
-
 .social {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    padding: 6px;
-    color: white;
-    background-color: transparent;
-    border: 3px transparent solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 6px;
+  color: white;
+  background-color: transparent;
+  border: 3px transparent solid;
 }
 
 .social:hover {
-    border: 3px #5f3dbc solid;
-    border-radius: 10px;
+  border: 3px #5f3dbc solid;
+  border-radius: 10px;
 }
 
 .button-port-active {
-    font-size: 16px;
-    font-weight: 500; 
-    background-color: transparent; 
-    width: fit-content;
-    color: white; 
-    padding: 6px; 
-    padding-left: 12px; 
-    padding-right: 12px; 
-    border-radius: 50px; 
-    cursor: pointer; 
-    border: #33A9DC solid 2px;
-    transition: 0.5s;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: transparent;
+  width: fit-content;
+  color: white;
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: #33a9dc solid 2px;
+  transition: 0.5s;
 }
 
 .button-port {
-    font-size: 16px;
-    font-weight: 200; 
-    background-color: transparent; 
-    width: fit-content;
-    color: white; 
-    padding: 6px; 
-    padding-left: 12px; 
-    padding-right: 12px; 
-    border-radius: 50px; 
-    cursor: pointer; 
-    border: none;
-    transition: 0.5s;
+  font-size: 16px;
+  font-weight: 200;
+  background-color: transparent;
+  width: fit-content;
+  color: white;
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s;
+}
+
+.portfolio-img {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
 }
