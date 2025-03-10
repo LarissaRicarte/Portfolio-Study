@@ -16,6 +16,13 @@
     <link rel="stylesheet" href="styles/reveal_fx.css" />
     <script src="https://unpkg.com/lucide@latest"></script>
     <script src="scripts/reveal_fx.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div
@@ -23,7 +30,7 @@
       style="display: flex; flex-direction: column; align-items: stretch"
     >
       <!-- NAVBAR -->
-      <div style="position: fixed; z-index: 100; width: 100%; top: 0px;">
+      <div style="position: fixed; z-index: 100; width: 100%; top: 0px">
         <div class="navbar">
           <div style="display: flex; flex-direction: row; gap: 24px">
             <div class="card">
@@ -67,7 +74,7 @@
       </div>
 
       <!-- SESSÃO 01 -->
-      <section class="section one" style="margin-top: 60px;">
+      <section class="section one" style="margin-top: 60px">
         <div class="reveal revealed">
           <div style="font-size: 20px">Bem vindo(a) ao meu espaço criativo</div>
           <div style="font-size: 64px; font-weight: bold">
@@ -575,60 +582,36 @@
       </section>
 
       <footer class="section footer" style="width: 100%">
-        <div
-          style="
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-          "
-        >
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              align-items: flex-start;
-              gap: 12px;
-            "
-          >
-            <button class="social">
-              <img src="./imgs/larissa.svg" alt="" width="30px" />
-              <div>Larissa Ricarte</div>
-            </button>
-            <button class="social">
-              <img src="./imgs/larissa.svg" alt="" width="30px" />
-              <div>lari.designer.prof@gmail.com</div>
-            </button>
-            <button class="social">
-              <img src="./imgs/larissa.svg" alt="" width="30px" />
-              <div>Fortaleza, Brasil</div>
-            </button>
+        <div style="max-width: 50%; margin-left: auto; margin-right: auto">
+          <div style="display: flex; flex-direction: row; gap: 24px">
+            <div class="card" style="background-color: #5f3dbc">
+              <img
+                src="./imgs/larissa.svg"
+                alt="perfil"
+                style="border-radius: 100px; width: 30px; height: 30px"
+              />
+              Larissa Ricarte
+            </div>
           </div>
-
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              align-items: end;
-              gap: 12px;
-            "
-          >
-            <button class="social">
-              <div>@ricarte.design</div>
-              <img src="./imgs/larissa.svg" alt="" width="30px" />
-            </button>
-            <button class="social">
-              <div>Larissa Ricarte</div>
-              <img src="./imgs/larissa.svg" alt="" width="30px" />
-            </button>
-            <button class="social">
-              <div>larissaricartedesign</div>
-              <img src="./imgs/larissa.svg" alt="" width="30px" />
-            </button>
+          <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+            sed ut, sit laudantium molestiae voluptatem laborum atque odit?
+            Quasi cumque vel repellat quibusdam commodi magni, fuga enim
+            accusamus hic pariatur!
           </div>
-        </div>
-
-        <div style="font-size: 14px; font-weight: lighter">
-          Copyright © 2025 All Rights Reserved.
+          <div style="flex-direction: row; display: flex; gap: 48px">
+            <a class="footer-link-button" href="/" style="text-decoration: underline #5f3dbc 3px">Home</a>
+            <a class="footer-link-button" href="#sobre">Sobre mim</a>
+            <a class="footer-link-button" href="#servicos">Serviços</a>
+            <a class="footer-link-button" href="#portfolio">Portfólio</a>
+            <a class="footer-link-button" href="#contato">Entre em contato</a>
+          </div>
+          <div style="flex-direction: row; display: flex; gap: 48px; font-size: 32px;">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-behance"></i>
+          </div>
         </div>
       </footer>
     </div>
