@@ -1,0 +1,25 @@
+.reveal {
+  opacity: 0;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal-auto {
+    opacity: 1;
+}
+
+.reveal-top {
+  transform: translateY(120px);
+}
+
+.reveal-left {
+  transform: translateX(120px);
+}
+
+.reveal-right {
+  transform: translateX(-120px);
+}
+
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
